@@ -1,6 +1,9 @@
 # TypeScript-Serverless-AWS-Application
 Sample Car Auction Serverless Application using TypeScript, Serverless Framework and AWS.
 
+![TypeScript-Serverless-AWS-Application](https://github.com/mehmetnuribolat/TypeScript-Serverless-AWS-Application/assets/145845943/5cf97b66-c8f7-49ce-a8f3-66f070f2ab67)
+
+
 ## 💻 Tech Stack
 - Environment: [Node.js](https://nodejs.org/)
 - Framework: [Serverless](https://www.serverless.com/)
@@ -33,34 +36,51 @@ npm install -g serverless
 ```
 aws configure
 ```
+![AWS-Configure](https://github.com/mehmetnuribolat/TypeScript-Serverless-AWS-Application/assets/145845943/99414ab8-5f2d-45e3-9245-f98c74a6e6b9)
 
 ### Install Packages for each Service:
-
+#### Car Auction Service
 ```
 cd auction-service
+```
+```
 npm install
 ```
+#### Authentication Service
 ```
 cd authentication-service
+```
+```
 npm install
 ```
+#### Notification Service
 ```
 cd notification-service
+```
+```
 npm install
 ```
 
 ### Deploy services to AWS:
-
+#### Car Auction Service
 ```
 cd auction-service
+```
+```
 serverless deploy
 ```
+#### Authentication Service
 ```
 cd authentication-service
+```
+```
 serverless deploy
 ```
+#### Notification Service
 ```
 cd notification-service
+```
+```
 serverless deploy
 ```
 
