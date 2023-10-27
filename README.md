@@ -91,7 +91,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## :pray: Show your support
 
 Give a ⭐️ if this project helped you!
-
 ## 📝 License
 
 This project is under [MIT](https://github.com/mehmetnuribolat/TypeScript-Serverless-AWS-Application/blob/main/LICENSE) license.
